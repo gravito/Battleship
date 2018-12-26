@@ -16,8 +16,7 @@ class battleship:
         self.des = 2
         self.total = self.carrier + self.bs + self.cruiser + self.sub + self.des 
         self.counter = 0 #counter to track minimum number of attempts
-        self.prev_x = -1
-        self.prev_y = -1
+
 
     def cls(self):
         os.system('cls' if os.name=='nt' else 'clear')
